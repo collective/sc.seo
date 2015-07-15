@@ -6,33 +6,28 @@
 sc.seo
 ==============================================================================
 
-Tell me what your product does
+A collection of Dexterity Behaviors adding some SEO enhacements to Plone.
 
 Features
 --------
 
-- Can be bullet points
+Currently we provide two new behaviors:
 
+- SEO: Canonical URL
+- SEO: Meta tag robots
 
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
 
 
 Documentation
 -------------
 
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
+Full documentation for end users can be found in the "docs" folder.
 
 
 Translations
 ------------
 
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
+TBA
 
 
 Installation
@@ -62,7 +57,7 @@ Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+Join us at #simplesconsultoria on irc.freenode.net
 
 
 License
