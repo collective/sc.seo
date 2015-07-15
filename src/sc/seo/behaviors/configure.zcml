@@ -1,0 +1,24 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="sc.seo">
+
+    <include package="plone.behavior" file="meta.zcml" />
+
+    <plone:behavior
+        title="SEO: Canonical URL"
+        description="Implement Canonical URL per content in Plone."
+        provides=".canonical.ICanonicalURL"
+        factory="plone.behavior.AnnotationStorage"
+        marker=".interfaces.ISEOBehavior"
+        />
+
+    <plone:behavior
+        title="SEO: Meta Robots"
+        description="Implement metatag robots per content in Plone."
+        provides=".metarobots.IMetaRobots"
+        factory="plone.behavior.AnnotationStorage"
+        marker=".interfaces.ISEOBehavior"
+        />
+
+</configure>
